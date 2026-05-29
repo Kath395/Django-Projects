@@ -1,0 +1,6 @@
+<h1>Poll Questions</h1>
+<ul>
+  {% for question in questions %}
+  <li>{{ question.question_text }}</li>
+  {% endfor %}
+</ul>
